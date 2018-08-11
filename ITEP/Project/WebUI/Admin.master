@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="App_Themes/Rational/default.css" rel="stylesheet" type="text/css" />
+
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+<div id="outer">
+	<div id="header">
+		<h1><a href="#">ITEP</a></h1>
+		<h2>Information Technology Education Portal</h2>
+	</div>
+
+	<div id="content">
+		<div id="primaryContentContainer">
+			<div id="primaryContent">
+                
+                <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>				
+			</div>
+		</div>
+		<div id="secondaryContent">
+			<h3>Admin Menu</h3>
+			<ul>
+				<li><asp:HyperLink ID="hyl1" NavigateUrl="~/Admin/Default.aspx" runat="server">Home</asp:HyperLink></li>
+				<li><asp:HyperLink ID="HyperLink1" NavigateUrl="~/Admin/ManageBranch.aspx" runat="server">Branch</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink2" NavigateUrl="~/Admin/ManageNews.aspx" runat="server">News</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink3" NavigateUrl="~/Admin/ManageNewsCategory.aspx" runat="server">NewsCategory</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink4" NavigateUrl="~/Admin/ManageSubjects.aspx" runat="server">Subjects</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink5" NavigateUrl="~/Admin/ManageTopics.aspx" runat="server">Topics</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink6" NavigateUrl="~/Admin/ManageUploads.aspx" runat="server">Uploads</asp:HyperLink></li>
+                <li><asp:HyperLink ID="HyperLink7" NavigateUrl="~/Admin/ManageUploadsType.aspx" runat="server">UploadsTypes</asp:HyperLink></li>
+			    <li><asp:HyperLink ID="HyperLink8" NavigateUrl="#" runat="server">Register</asp:HyperLink></li>
+			    <li><asp:HyperLink ID="HyperLink9" NavigateUrl="~/Admin/ManageQuestion.aspx" runat="server">Question</asp:HyperLink></li>
+			    <li><asp:HyperLink ID="HyperLink10" NavigateUrl="~/Admin/ManageAnswer.aspx" runat="server">Answer</asp:HyperLink></li>
+			    <li><asp:HyperLink ID="HyperLink11" NavigateUrl="~/User/Default.aspx" runat="server">SiteHome</asp:HyperLink></li>
+            
+            </ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<div id="footer">
+		<p>Copyright &copy; 2006 ITEP.com. <a href="http://www.freecsstemplates.org/" rel="nofollow"></a></p>
+	
+    </div>
+</div>
+    
+
+
+
+
+
+    </form>
+</body>
+</html>

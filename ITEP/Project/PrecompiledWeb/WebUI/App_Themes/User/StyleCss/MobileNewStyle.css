@@ -1,0 +1,166 @@
+﻿@media screen and (max-width:400px) {
+
+#tabcontent_sectionAllVideos
+{
+    width:980px;
+    margin-top:10px;
+    height:800px;
+    
+    }
+
+#topnewsScrolling
+{
+    height:800px;
+    overflow:scroll;
+    }
+#VideoPlay
+{
+    
+    margin-left:10px;
+    
+    }
+    
+    
+.RelatedVideo
+{
+    margin-top:20px;
+    width:760px;
+    overflow:auto;
+    height:400px;
+    
+    }
+    
+    .RelatedVideo a   
+{
+  
+    float:left;
+    margin-top:20px;
+    margin-left:10px;
+}
+ 
+    .RelatedVideo a img   
+{
+    
+    width:110px;
+    height:100px;
+
+}
+ 
+ .Space10
+ {
+     height:10px;
+     }
+ .Space20
+ {
+     height:20px;
+     
+     }
+ .Space15
+ {
+     height:15px;
+     }
+ 
+ #regularsectionNewscss
+ {
+     
+     width:270px;
+     height:100px;
+     
+     }
+ 
+ .LoginStyle
+ {
+     background-color:Silver;
+     position:relative;
+     margin-left:300px;
+     width:500px;
+     margin-top:100px;
+     margin-bottom:200px;
+     height:300px;
+     }
+ 
+ .LoginPageBack
+ {
+     background-color:Yellow;
+     
+     }
+ 
+ .ContactUs
+ {
+     
+     width:700px;
+     height:500px;  
+     background-color:InfoBackground;
+     
+     
+     }
+ .ContactUsForm
+ {
+     
+     width:300px;
+     height:200px;
+     background-color:ButtonFace;
+     margin-left:200px;
+    position:absolute;
+    margin-top:100px;
+    
+   color:#750a20;
+     z-index:151204;
+     font-size:large;
+     padding:20px;
+     
+     }
+ 
+ .ContactUSBox
+ {
+     border:1px solid #750a20;
+     width:85%;
+     height:40%;
+     margin-bottom:10px;
+     padding:5px;
+     }
+ 
+ #RegisterStyle
+ {
+     margin-left:9px;
+     margin-top:30px;
+     margin-bottom:30px;
+     
+     }
+ .Loginwrapper
+ {
+    
+     margin-top:15px;
+     margin-left:30px;;   
+     position:relative;
+    
+     }
+ .QuestionStyle
+ {
+     width:330px;
+     height:30px;
+     
+ }
+ 
+ .QuestionStyle spam
+ {
+     font-size:small;
+     font-weight:bolder;
+     margin-left:10px;
+     color:Silver;
+ }
+ 
+ #PasswordRecoveryStyle
+ {
+     
+    margin-left:300px;
+     
+    margin-top:100px;
+    margin-bottom:100px;
+     }
+ #ManageAllUploads{
+
+     margin-left:15px;
+ }
+
+}

@@ -1,0 +1,368 @@
+/* ######### CSS for Shade Tabs. Remove if not using ######### */
+
+.tab_section {
+	clear: both;
+	width: 600px;
+}
+
+.topnews {
+	float: left;
+	width: 200px;
+	padding-right: 10px;
+	margin-right: 10px;
+	border-right: 1px dotted #CCC;
+}
+.newslist {
+	float: left;
+	width: 350px;
+}
+
+.newslist ul{
+	clear: both;
+	margin: 0;
+	padding: 0 0 10px 20px;
+}
+.newslist li {
+	padding-bottom: 5px;
+}
+
+.newslist li a{
+	font-weight: bold;
+}
+
+.tabcontent_section {
+	clear: both;
+	float:left;
+	width:580px;
+	margin-bottom: 1em;
+	padding: 10px;
+	border: 1px solid #981b35;
+}
+
+.shadetabs{
+padding: 3px 0;
+margin-left: 0;
+margin-top: 1px;
+margin-bottom: 0;
+font: bold 12px Verdana;
+list-style-type: none;
+text-align: left; /*set to left, center, or right to align the menu as desired*/
+}
+
+.shadetabs li{
+display: inline;
+margin: 0;
+}
+
+.shadetabs li a{
+text-decoration: none;
+position: relative;
+z-index: 1;
+padding: 3px 7px;
+margin-right: 3px;
+border: 1px solid #981b35;
+color: #FFFFFF;
+background: #750a20;
+}
+
+.shadetabs li a:visited{
+color: #FFFFFF;
+}
+
+.shadetabs li a:hover{
+text-decoration: underline;
+color: #FFFFFF;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+
+background-color:white;
+color:#750a20;
+position: relative;
+top: 1px;
+}
+
+.shadetabs li a.selected{ /*selected main tab style */
+background-image: url(images/shadeactive.gif);
+border-bottom-color: white;
+}
+
+.shadetabs li a.selected:hover{ /*selected main tab style */
+text-decoration: none;
+}
+
+.tabcontent{
+    display: none;
+   
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+/* ######### CSS for Inverted Modern Bricks II Tabs. Remove if not using ######### */
+
+.modernbricksmenu2{
+padding: 0;
+width: 362px;
+border-top: 5px solid #D25A0B; /*Brown color theme*/ 
+background: transparent;
+ 
+voice-family: inherit;
+}
+
+.modernbricksmenu2 ul{
+margin:0;
+margin-left: 10px; /*margin between first menu item and left browser edge*/
+padding: 0;
+list-style: none;
+}
+
+.modernbricksmenu2 li{
+display: inline;
+margin: 0 2px 0 0;
+padding: 0;
+text-transform:uppercase;
+}
+
+.modernbricksmenu2 a{
+float: left;
+display: block;
+font: bold 11px Arial;
+color: white;
+text-decoration: none;
+margin: 0 1px 0 0; /*Margin between each menu item*/
+padding: 5px 10px;
+background-color: black; /*Brown color theme*/ 
+border-top: 1px solid white;
+}
+
+.modernbricksmenu2 a:hover{
+background-color: #D25A0B; /*Brown color theme*/ 
+color: white;
+}
+
+.modernbricksmenu2 a.selected{ /*currently selected tab*/
+background-color: #D25A0B; /*Brown color theme*/ 
+color: white;
+border-color: #D25A0B; /*Brown color theme*/ 
+}
+
+.tabcontent{
+
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+/* ######### CSS for Indented CSS Tabs. Remove if not using ######### */
+
+
+.indentmenu{
+font: bold 13px Arial;
+width: 100%; /*leave this value as is in most cases*/
+}
+
+.indentmenu ul{
+margin: 0;
+padding: 0;
+float: left;
+/* width: 80%; width of menu*/
+border-top: 1px solid navy; /*navy border*/
+background: black url(indentbg.gif) center center repeat-x;
+}
+
+.indentmenu ul li{
+display: inline;
+}
+
+.indentmenu ul li a{
+float: left;
+color: white; /*text color*/
+padding: 5px 11px;
+text-decoration: none;
+border-right: 1px solid navy; /*navy divider between menu items*/
+}
+
+.indentmenu ul li a:visited{
+color: white;
+}
+
+.indentmenu ul li a.selected{
+color: white !important;
+padding-top: 6px; /*shift text down 1px*/
+padding-bottom: 4px;
+background: black url(indentbg2.gif) center center repeat-x;
+}
+
+
+.tabcontentstyle{ /*style of tab content oontainer*/
+border: 1px solid gray;
+width: 450px;
+margin-bottom: 1em;
+padding: 10px;
+}
+
+.tabcontent{
+
+}
+
+@media print {
+.tabcontent {
+display:block !important;
+}
+}
+
+#templatemo_gallery_section_ul{
+    
+    list-style-type: none;
+    line-height: 1.4em;
+}
+#templatemo_gallery_section_ul_ul{
+   
+    list-style-type: none;
+    
+}
+
+.slideicon li a{
+    
+    	display: block;
+	padding: 0px 15px;
+	font-weight: normal;
+	text-decoration: none;
+	background: url(images/icon2.png) left center no-repeat;
+}
+
+.Download{
+    
+    margin-left: 150px;
+}
+#regular_section_ASK{
+    
+    width: 500px;
+    
+}
+
+#Ask_Container{
+    
+    font-size: medium;
+    line-height: 1.4em;
+    
+}
+
+.Contant_Style{
+    background-color:lightgoldenrodyellow;
+    margin-left: 40px;
+}
+.Contant_Style samp{
+    margin-left: 15px;
+    color: #981b35;
+    font-size: small;
+    
+}
+ul li  #Contant p{
+  
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+.Question_main_rightcol{
+    margin-left: 62%;
+    position: absolute;
+    
+}
+#News_Style{
+    margin-top: 290px;
+    position: absolute;
+    width: 600px;
+    
+}
+#News_Style p{
+    width: 600px;
+}
+#News_Style #News{
+    float: right;
+}
+
+#News_Style ul{
+    list-style-type: decimal;
+    margin-left: 125px;
+}
+#Download_Type{
+    
+    margin-top: 600px;
+    position: absolute;
+}
+
+#Register{
+    
+    margin-bottom: 10px;
+    width: 600px;
+    
+    border: 1px solid #981b35;
+   color: #981b35;
+   font-size: larger;
+    border-style: dotted;
+}
+
+#Register input{
+    
+    height: 20px;
+    border: 2px solid lightgray;
+    border-style: dotted;
+
+}
+#Register input:hover{
+    
+    border: 2px solid #981b35;
+    position: relative;
+}
+
+#ContactForm{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #981b35;
+}
+
+.ImageMargin{
+    
+    margin-left: 15px;
+    width: 100px;
+    height: 100px;
+}
+.TopImagesMargin{
+    width: 89px;
+    height: 67px;
+    
+}
+.VideoSize{
+    
+    width: 110px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
